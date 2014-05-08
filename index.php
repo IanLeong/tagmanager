@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title><?=htmlspecialchars($_SERVER["HTTP_HOST"])?></title>
+<title>Google Tag Manager Demo by Ian Leong</title>
 <style type="text/css">
 <!--
 body {
@@ -38,12 +38,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5PBLLP');</script>
 <!-- End Google Tag Manager -->
 
+<!-- Google global universal analytics include -->
+<?php include_once("includes/analyticstracking.php") ?>
+<!-- End Google global universal analytics include -->
+
 <table border="0" cellspacing="0" cellpadding="0" align="center">
 <tr>
 <td colspan="3"><img src="/icons/i/t.gif" width="1" height="158" alt="" /></td>
 </tr>
 <tr>
-<td colspan="3" align="center"><img src="/icons/i/got.gif" alt="Got New Host" width="272" height="46" /></td>
+<td colspan="3" align="center" class="t">Google Tag Manager Walkthrough</td>
 </tr>
 <tr>
 <td><img src="/icons/i/left.gif" width="14" height="60" alt="" /></td>
